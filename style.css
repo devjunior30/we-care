@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+header {
+    margin-top: 44px;
+    margin-left: 76px;
+}
+
+a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #989D9C;
+    width: 79px;
+    height: 29px;
+    margin-left: 23px;
+    text-decoration: none;
+}
+
+#button-inicial {
+    background: #665AE1;
+    border-radius: 20.5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    width: 110px;
+    margin-left: 28px;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    margin-top: 144px;
+    margin-left: 125px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: .5;
+}
+
+#div-elementos {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    opacity: .7;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+    opacity: .7;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+}
+
+#button-final {
+    background: #ADFF00;
+    border-radius: 20.5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    padding: 15px 48px 22.8px 46px;
+    Width: 239px;
+    height: 64px;
+    margin-top: 65px;
+}
+
+@media screen and (max-width: 631px) {
+    a {
+        display: none;
+    }
+
+    #button-inicial {
+        display: none;
+    }
+
+    img {
+        display: block;
+        margin-top: 50px;
+        height: 314px;
+        width: 354px;
+        margin-left: 14px;
+        margin-right: 24px;
+    }
+
+    h1 {
+        font-family: 'Montserrat';
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        color: #515151;
+        margin-top: 24px;
+    }
+
+    h2 {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        color: #515151;
+        margin-top: 7px;
+    }
+
+    p {
+        display: none;
+    }
+
+    #button-final {
+        margin-top: 17px;
+    }
+}
